@@ -12,6 +12,7 @@
     font-weight: 800;
     line-height: 37px;
     text-align: center;
+    margin-bottom: 24px;
 }
 
 .description {
@@ -98,11 +99,6 @@ nav button {
     max-width: 1140px;
     margin: 70px auto;
     padding: 80px 100px;
-
-}
-
-.sect-2>.title {
-    margin-bottom: 24px;
 }
 
 .sect-2>.description {
@@ -157,9 +153,7 @@ div.leyar-2 {
     margin: 90px auto;
     max-width: 1140px;
 }
-.sect-3>h3{
-    margin-bottom: 24px;
-}
+
 .sect-3 div {
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.2);
@@ -167,6 +161,66 @@ div.leyar-2 {
     padding: 32px;
     margin: 48px auto;
 }
-.sect-3 div iframe{
+
+.sect-3 div iframe {
     border-radius: 16px;
+}
+
+/* section 4 */
+
+.sect-4 {
+    margin: 100px auto;
+    max-width: 1140px;
+    text-align: center;
+}
+
+.sect-4>p {
+    margin-bottom: 48px;
+}
+
+.card {
+    display: flex;
+    gap: 24px;
+}
+
+.card div {
+    text-align: left;
+    padding: 40px;
+}
+
+.html {
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.css {
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.js {
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.card h4 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.card p {
+    margin-bottom: 24px;
+}
+
+.card a {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
 }
