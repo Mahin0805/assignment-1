@@ -224,3 +224,63 @@ div.leyar-2 {
     font-weight: 700;
     line-height: 19px;
 }
+
+/* section 5 */
+
+
+
+
+/* section 6 */
+
+.sect-6 {
+    box-sizing: border-box;
+    background-image: url(assets/handshake.jpg);
+    border-radius: 16px;
+    background-position: center;
+    margin: 100px auto;
+    max-width: 1140px;
+    text-align: center;
+    height: 320px;
+    padding: 64px 48px;
+}
+
+.sect-6 h3 {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 18px;
+}
+
+.sect-6 p {
+    color: rgb(255, 255, 255);
+    margin-bottom: 24px;
+}
+
+form input[type=text] {
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    width: 548px;
+    height: 40px;
+    padding-left: 20px;
+}
+
+form input[type=submit] {
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    width: 120px;
+    height: 40px;
+}
