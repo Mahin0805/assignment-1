@@ -89,6 +89,7 @@ nav button {
     border-radius: 8px;
     background: rgb(13, 19, 33);
     padding: 20px 25px;
+    border: none;
 }
 
 /* section 2 */
