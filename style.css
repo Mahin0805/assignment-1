@@ -155,7 +155,6 @@ div.leyar-2 {
 }
 
 .sect-3 div {
-    box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
     padding: 32px;
@@ -164,6 +163,8 @@ div.leyar-2 {
 
 .sect-3 div iframe {
     border-radius: 16px;
+    width: 100%;
+    height: 550px;
 }
 
 /* section 4 */
@@ -171,10 +172,10 @@ div.leyar-2 {
 .sect-4 {
     margin: 100px auto;
     max-width: 1140px;
-    text-align: center;
 }
 
 .sect-4>p {
+    text-align: center;
     margin-bottom: 48px;
 }
 
@@ -184,7 +185,6 @@ div.leyar-2 {
 }
 
 .card div {
-    text-align: left;
     padding: 40px;
 }
 
@@ -227,8 +227,52 @@ div.leyar-2 {
 
 /* section 5 */
 
+.sect-5 {
+    margin: 100px auto;
+    max-width: 1140px;
+}
 
+.sect-5>p {
+    text-align: center;
+}
 
+.sect-5>div {
+    display: flex;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin-bottom: 24px;
+    align-items: center;
+    padding: 40px;
+}
+
+.sect-5 div :first-child {
+    width: 150px;
+    margin-right: 20px;
+}
+
+.sect-5 h4 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.sect-5 div p {
+    margin-bottom: 24px;
+}
+
+.sect-5 a {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+}
 
 /* section 6 */
 
@@ -283,4 +327,27 @@ form input[type=submit] {
     line-height: 23px;
     width: 120px;
     height: 40px;
+}
+
+/* footer section  */
+
+.foot {
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    padding: 32px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+}
+
+.foot a {
+    padding-left: 24px;
 }
