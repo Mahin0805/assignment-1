@@ -58,8 +58,8 @@ nav button {
     background-size: cover;
     background-position: center;
     text-align: center;
-    height: 650px;
-    padding: 30px 220px;
+    /* height: 650px; */
+    padding: 50px 14em;
 }
 
 .hero-content h2 {
@@ -120,9 +120,11 @@ nav button {
 .leyar-2 {
     background: linear-gradient(270.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
 }
-.leyar-2 :first-child{
+
+.leyar-2 :first-child {
     margin-right: 20px;
 }
+
 .leyar h4 {
     color: rgba(13, 19, 33, 0.7);
     font-family: Azeret Mono;
@@ -328,14 +330,14 @@ form input[type=submit] {
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 8px;
     background: rgb(255, 255, 255);
-    color: rgb(13, 19, 33);
+    color: rgb(13, 19, 33, 0.8);
     font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 600;
     line-height: 23px;
     width: 120px;
     height: 40px;
-    margin-right: 10px;
+    margin: 10px;
 }
 
 /* footer section  */
@@ -355,6 +357,10 @@ form input[type=submit] {
     font-size: 20px;
     font-weight: 600;
     line-height: 23px;
+}
+
+.foot div {
+    display: flex;
 }
 
 .foot a {
